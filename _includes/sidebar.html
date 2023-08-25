@@ -3,7 +3,9 @@
 
   <div class="profile-container">
 
-    {% if sidebar.avatar %}
+    {% if sidebar.avatar contains "https" || "http" %}
+    <img class="avatar" src="{{ sidebar.avatar }}" alt="profile picture" />
+    {% else %}
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
