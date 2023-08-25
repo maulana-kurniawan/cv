@@ -3,263 +3,181 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Maulana Kurniawan
+  tagline: Junior Web Programmer
+  avatar: https://avatars.githubusercontent.com/u/117083636?v=4 #place a 100x100 picture inside /assets/images/ folder and provide the name of the file here. Or you can put image url here too.
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: maulanakurniawan128@outlook.co.id
+  phone:
+  timezone: Asia/Jakarta
+  citizenship: Tasikmalaya
+  website: maulana-kurniawan.github.io #do not add http://
+  linkedin:
+  github: maulana-kurniawan
+  gitlab:
+  bitbucket:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  facebook: maulanakurnwn
+  instagram: maulanakurnwn
+  threads:
+  twitter:
+  telegram: maulanakurniawan_tg
+  discord:
+  tiktok:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  xing:
+  pdf:
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Indonesia
+        level: Native
 
-        - idiom: French
-          level: Professional
+      - idiom: English
+        level: Intermediate
 
-        - idiom: Spanish
-          level: Professional
+  interests:
+    title: Interests
+    info:
+      - item: Reading
+        link:
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+      - item: Watching Video
+        link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+      - item: Coding
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: About Me
+  summary: |
+    I'am an Informatics Management student from Politeknik LP3I Tasikmalaya. I'm focusing on
+    web programming. Interested in the world of technology since elementary school and
+    tried simple basic programming languages since junior high school.
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+  title: Education
+  info:
+    - degree: |
+        D3 Manajemen Informatika<br>
+        <span style="font-size: 13px;font-weight: 300;">(Diploma in Informatics Management)</span>
+      university: Politeknik LP3I Tasikmalaya
+      time: 2020 - 2023
+    - degree: |
+        Ilmu-Ilmu Sosial<br>
+        <span style="font-size: 13px;font-weight: 300;">(Social Sciences)</span>
+      university: MAN 2 Kota Tasikmalaya
+      time: 2017 - 2020
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiences
+  info:
+    - role: Web Programmer
+      time: September 2022 - November 2022
+      company: SMKN 1 Ciamis, Kab. Ciamis
+      details: |
+        Me and my 2 friends created a web-based guestbook app, along with an admin panel management.
+        In this period we creating the project for our KKI (Kuliah Kerja Industri, or it's like "internship"
+        in English) tasks.
+    - role: Web Programmer & Team Lead
+      time: August 2021 - September 2021
+      company: Politeknik LP3I Tasikmalaya, Kota Tasikmalaya
+      details: |
+        A web-based accounting app intended for RE (Ruang Entrepreneur, it some sort of canteen)
+        on my campus. Made with all of my classmates and guided by our lecturer during the process.
+        My contribution in this project was mostly in the back-end.
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+  enable: False
+  title: Certifications
+  list:
+    - name:
+      start:
+      end:
+      organization:
+      credentialid:
+      credentialurl:
+      credentialname:
+      details:
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
+  intro: >
+    List of projects i make or involved in:
+  assignments:
+    - title: Web Admin Presensi
+      link: "https://github.com/Ahmadfzlbs/web-admin-presensi"
+      tagline: "Web-based admin panel project for Ahmad Fauzi Lubis's Presensi Android app."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: Buku Tamu
+      link: "https://tamu.smkn1ciamis.id"
+      tagline: |
+        This project was made when me and Anggi Prayoga were doing KKI in SMKN 1 Ciamis.
+        It is a modified version from the original one with added face detection feature
+        using the face-api.js library, improved UI and overall UX.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: Wisata Alam Sari Landing Page
+      link: "https://wisataalamsari.vercel.app"
+      tagline: |
+        The landing page that i created with Sandi Nurhadiana for our KKN contribution on April 2022,
+        to showcases the Alam Sari tourist spot in Neglasari village, Jatiwaras, Tasikmalaya."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Kasir App
+      link: "https://github.com/maulana-kurniawan/kasir-app"
+      tagline: |
+        A web-based accounting app intended for RE (Ruang Entrepreneur, it some sort of canteen)
+        on my campus. The modified version, added with some features and UI/UX improvements to make it
+        more interesting & gorgeous.
 
 oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  enable: False
+  title: OSS Contributions
+  intro:
+  contributions:
+    - title:
+      link:
+      tagline:
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+  enable: False
+  title: Publications
+  intro:
+  papers:
+    - title:
+      link:
+      authors:
+      conference:
 
 skills:
-    title: Skills &amp; Proficiency
+  enable: True
+  title: Skills
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: HTML5
+      level: 70%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: CSS
+      level: 56%
 
-      - name: Angular
-        level: 98%
+    - name: JavaScript & jQuery
+      level: 62%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: PHP
+      level: 65%
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Git
+      level: 38%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: CLI
+      level: 30%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    - name: Linux
+      level: 57%
+
+footer:
