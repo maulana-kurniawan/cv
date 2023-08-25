@@ -3,6 +3,7 @@
 $baseurl: "{{ site.baseurl }}";
 
 @charset "utf-8";
+@import "fonts";
 
 // define variable with front matter
 {% if site.data.data.sidebar.position == 'left' %}
